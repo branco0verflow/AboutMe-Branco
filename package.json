@@ -2,7 +2,7 @@
   "name": "mi-portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://branco0verflow.github.io/MyPortfolio",
+  "homepage": "https://branco0verflow.github.io/AboutMe-Branco",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
