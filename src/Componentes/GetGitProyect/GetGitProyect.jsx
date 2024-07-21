@@ -20,9 +20,11 @@ const GetGitProyect = (props) => {
                 console.error('Error fetching repos:', error);
             }
         };
-
+    
         fetchRepos();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
+    
 
     return (
         <>
