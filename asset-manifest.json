@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/AboutMe-Branco/static/css/main.b46bd696.css",
+    "main.css": "/AboutMe-Branco/static/css/main.3587d465.css",
     "main.js": "/AboutMe-Branco/static/js/main.f0da3cd7.js",
     "static/js/453.0fbe92db.chunk.js": "/AboutMe-Branco/static/js/453.0fbe92db.chunk.js",
     "static/media/TAU.mp4": "/AboutMe-Branco/static/media/TAU.566ef83a4847b8a49047.mp4",
@@ -28,12 +28,12 @@
     "static/media/saa.jpg": "/AboutMe-Branco/static/media/saa.882bfd73f03325b6328f.jpg",
     "static/media/boots.png": "/AboutMe-Branco/static/media/boots.ad5c857afd0574404bbd.png",
     "index.html": "/AboutMe-Branco/index.html",
-    "main.b46bd696.css.map": "/AboutMe-Branco/static/css/main.b46bd696.css.map",
+    "main.3587d465.css.map": "/AboutMe-Branco/static/css/main.3587d465.css.map",
     "main.f0da3cd7.js.map": "/AboutMe-Branco/static/js/main.f0da3cd7.js.map",
     "453.0fbe92db.chunk.js.map": "/AboutMe-Branco/static/js/453.0fbe92db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b46bd696.css",
+    "static/css/main.3587d465.css",
     "static/js/main.f0da3cd7.js"
   ]
 }
