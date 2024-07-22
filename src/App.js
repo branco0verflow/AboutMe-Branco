@@ -9,7 +9,7 @@ function App() {
         <Routes>
 
           
-          <Route path='/MyPortfolio' element={<PaginaPrincipal />} />
+          <Route path='/AboutMe-Branco' element={<PaginaPrincipal />} />
 
         </Routes>
       </BrowserRouter>
