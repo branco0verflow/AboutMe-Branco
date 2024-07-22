@@ -271,6 +271,7 @@ h5{
     font-size: 4em; /* Ajustar el tamaño de la fuente del apellido para pantallas pequeñas */
     margin-top: -10px; /* Ajustar el margen entre el apellido y la foto */
     justify-content: center;
+    margin-left: 7px;
   }
 
   .skills-part{
@@ -318,5 +319,7 @@ h5{
     font-size: 7em; /* Tamaño de la fuente del apellido para pantallas grandes */
     margin-top: -15px; /* Ajustar el margen entre el apellido y la foto */
   }
+
+  
 }
 
