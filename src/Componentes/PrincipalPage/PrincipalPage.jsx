@@ -17,6 +17,8 @@ import logo8 from '../../images/Logos/mui.png';
 import logo9 from '../../images/Logos/git.png';
 import logo10 from '../../images/Logos/visual.png';
 import logo11 from '../../images/Logos/vsc.png';
+import Consultas from '../Consultas/Consultas';
+import VideoPlayerPrincipal from '../Video/VideoPlayerPrincipal';
 
 
 
@@ -28,39 +30,42 @@ const PaginaPrincipal = () => {
 
     <>
 
-      <div className="sectionWithBackground">
+<div className="sectionWithBackground">
+  <div className="background-video">
+    <VideoPlayerPrincipal />
+    Tu navegador no soporta el elemento de video.
+  </div>
 
-        <div className='paginacion'>
-          {isEnglish ? <a href="#sobre-mi"><h5 className='big-shoulders'>About me</h5></a> : <a href="#sobre-mi"><h5 className='big-shoulders'>Sobre mi</h5></a>}
-          {isEnglish ? <a href="#mis-proyectos"><h5 className='big-shoulders'>My proyects</h5></a> : <a href="#mis-proyectos"><h5 className='big-shoulders'>Mis proyectos</h5></a>}
-          {isEnglish ? <a href="#contacto"><h5 className='big-shoulders'>Contact</h5></a> : <a href="#contacto"><h5 className='big-shoulders'>Contacto</h5></a>}
-          <Form>
-            <Form.Check
-              className='big-shoulderss'
-              type="switch"
-              id="custom-switch"
-              label={isEnglish ? "Cambiar a Español" : "Change to English"}
-              checked={isEnglish}
-              onChange={() => setIsEnglish(!isEnglish)}
-            />
-          </Form>
-        </div>
+  <div className='paginacion'>
+    {isEnglish ? <a href="#sobre-mi"><h5 className='big-shoulders'>About me</h5></a> : <a href="#sobre-mi"><h5 className='big-shoulders'>Sobre mi</h5></a>}
+    {isEnglish ? <a href="#mis-proyectos"><h5 className='big-shoulders'>My projects</h5></a> : <a href="#mis-proyectos"><h5 className='big-shoulders'>Mis proyectos</h5></a>}
+    {isEnglish ? <a href="#contacto"><h5 className='big-shoulders'>Contact</h5></a> : <a href="#contacto"><h5 className='big-shoulders'>Contacto</h5></a>}
+    <Form>
+      <Form.Check
+        className='big-shoulderss'
+        type="switch"
+        id="custom-switch"
+        label={isEnglish ? "Cambiar a Español" : "Change to English"}
+        checked={isEnglish}
+        onChange={() => setIsEnglish(!isEnglish)}
+      />
+    </Form>
+  </div>
 
-        <div className="container">
-          <h1 className='tilt-warpy'>Branco</h1>
-          <h2 className='shadows-into'>Nehuen Beltran</h2>
-        </div>
+  <div className="container">
+    <h1 className='tilt-warpy'>Branco</h1>
+    <h2 className='shadows-into'>Nehuen Beltran</h2>
+  </div>
 
-        <div className='skills-part'>
-          {isEnglish ? <h6 className='skills-partH6'>Proactivity</h6> : <h6 className='skills-partH6'>Proactividad</h6>}
-          {isEnglish ? <h6 className='skills-partH6'>Creativity</h6> : <h6 className='skills-partH6'>Creatividad</h6>}
-          {isEnglish ? <h6 className='skills-partH6'>Team collaboration</h6> : <h6 className='skills-partH6'>Colaboración en equipo</h6>}
-          {isEnglish ? <h6 className='skills-partH6'>Adaptability & Flexibility</h6> : <h6 className='skills-partH6'>Adaptabilidad y Flexibilidad</h6>}
+  <div className='skills-part'>
+    {isEnglish ? <h6 className='skills-partH6'>Proactivity</h6> : <h6 className='skills-partH6'>Proactividad</h6>}
+    {isEnglish ? <h6 className='skills-partH6'>Creativity</h6> : <h6 className='skills-partH6'>Creatividad</h6>}
+    {isEnglish ? <h6 className='skills-partH6'>Team collaboration</h6> : <h6 className='skills-partH6'>Colaboración en equipo</h6>}
+    {isEnglish ? <h6 className='skills-partH6'>Adaptability & Flexibility</h6> : <h6 className='skills-partH6'>Adaptabilidad y Flexibilidad</h6>}
+  </div>
 
+</div>
 
-        </div>
-
-      </div>
 
       <div id='sobre-mi' className="secondSection">
         <div className="videoContainer">
@@ -100,7 +105,7 @@ const PaginaPrincipal = () => {
       <div id='contacto' className='last-section'>
         <div className='textoLast'>
           {isEnglish ? <h3 className='tilt-warpLast' >Get In Touch</h3> : <h3 className='tilt-warpLast' >Hazme saber tus necesidades</h3>}
-          {isEnglish ? <h5>Thank you for visiting my portfolio! If you have any questions or inquiries, feel free to contact me. I'll be happy to respond to your message as soon as possible. Looking forward to hearing from you soon!</h5> : <h5>¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o consulta, no dudes en contactarme. Estaré encantado de responder tu mensaje lo antes posible.</h5>}
+          {isEnglish ? <h5>Thank you for visiting my portfolio! If you have any questions or inquiries, feel free to contact me. I'll be happy to respond to your message as soon as possible. Looking forward to hearing from you soon!</h5> : <h5>¡Gracias por visitar mi portafolio! Si tienes alguna pregunta o consulta, no dudes en contactarme. Estaré encantado de responder tu mensaje.</h5>}
         </div>
         <div className='Imagen-Perfil'>
           <img src={imagenPerfil} alt='Imagen de perfil' />
@@ -109,6 +114,9 @@ const PaginaPrincipal = () => {
 
       <BotonSubir isEnglish={isEnglish} />
 
+      <div>
+          <Consultas isEnglish={isEnglish} />
+        </div>
     </>
 
 
@@ -128,7 +136,7 @@ const styles = {
     marginBottom: '-60px', // Espacio entre el nombre y el apellido
   },
   apellido: {
-    fontSize: '7em', // Tamaño de la fuente del apellido
+    fontSize: '5em', // Tamaño de la fuente del apellido
     marginBottom: '2px',
     marginTop: '-15px', // Espacio entre el apellido y la foto
   },
