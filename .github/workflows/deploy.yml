@@ -10,23 +10,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 1. Checkout del repositorio
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      # 2. Configuración de Node.js
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '16'
 
+      # 3. Instalación de dependencias
       - name: Install dependencies
         run: npm install
 
+      # 4. Build del proyecto
       - name: Build the project
         run: npm run build
 
+      # 5. Deploy a GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }} # Cambiar ACTIONS_DEPLOY_KEY por GITHUB_TOKEN
           publish_dir: ./build
-
