@@ -18,7 +18,6 @@ import logo9 from '../../images/Logos/git.png';
 import logo10 from '../../images/Logos/visual.png';
 import logo11 from '../../images/Logos/vsc.png';
 import Consultas from '../Consultas/Consultas';
-import VideoPlayerPrincipal from '../Video/VideoPlayerPrincipal';
 
 
 
