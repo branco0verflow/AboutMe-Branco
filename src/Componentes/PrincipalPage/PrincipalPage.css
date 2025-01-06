@@ -30,6 +30,10 @@
 }
 
 .sectionWithBackground {
+  background-image: url('../../images/FondoPrincipal.jpg');
+  background-size: 100% auto; /* La imagen se ajustará al ancho del contenedor */
+  background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   min-height: 100vh;
   display: flex;
@@ -37,15 +41,6 @@
   justify-content: center;
 }
 
-.background-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: -1; /* Asegura que el video quede en el fondo */
-}
 
 .paginacion, .container, .skills-part {
   position: relative;
