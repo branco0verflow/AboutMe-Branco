@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AboutMe-Branco/static/css/main.7c9c588b.css",
-    "main.js": "/AboutMe-Branco/static/js/main.24246511.js",
+    "main.css": "/AboutMe-Branco/static/css/main.d0ebee69.css",
+    "main.js": "/AboutMe-Branco/static/js/main.38ce77d4.js",
     "static/js/453.0fbe92db.chunk.js": "/AboutMe-Branco/static/js/453.0fbe92db.chunk.js",
     "static/media/TAU.mp4": "/AboutMe-Branco/static/media/TAU.566ef83a4847b8a49047.mp4",
     "static/media/CSharpPart2.mp4": "/AboutMe-Branco/static/media/CSharpPart2.6181baff8d002fb84c19.mp4",
@@ -9,7 +9,6 @@
     "static/media/RedPelis.mp4": "/AboutMe-Branco/static/media/RedPelis.be742cdf9c9d0be2d72b.mp4",
     "static/media/FirstProyect.mp4": "/AboutMe-Branco/static/media/FirstProyect.4b3e875023b767591b7d.mp4",
     "static/media/Gym24.mp4": "/AboutMe-Branco/static/media/Gym24.bc66cd112dbb2fdadf3a.mp4",
-    "static/media/Octopus.mp4": "/AboutMe-Branco/static/media/Octopus.0fe87ce60b4f149e770b.mp4",
     "static/media/CSharpPart1.mp4": "/AboutMe-Branco/static/media/CSharpPart1.8c187f6931f533140c82.mp4",
     "static/media/Portafolio.mp4": "/AboutMe-Branco/static/media/Portafolio.d7da9f7ad4b8a4b6c724.mp4",
     "static/media/777302027.mp4": "/AboutMe-Branco/static/media/777302027.54511fd1b5167c1ff591.mp4",
@@ -17,6 +16,7 @@
     "static/media/VideoCreando.mp4": "/AboutMe-Branco/static/media/VideoCreando.571842934f164a3b700f.mp4",
     "static/media/proyect.mp4": "/AboutMe-Branco/static/media/proyect.19fb5b75472460a55a73.mp4",
     "static/media/lastOne.png": "/AboutMe-Branco/static/media/lastOne.984cc71e04e9a2582181.png",
+    "static/media/FondoPrincipal.jpg": "/AboutMe-Branco/static/media/FondoPrincipal.5c3c2f916b96774e63ff.jpg",
     "static/media/Yellow.png": "/AboutMe-Branco/static/media/Yellow.0fbecef873ef39a3f7dd.png",
     "static/media/react.png": "/AboutMe-Branco/static/media/react.413d44932228f40ed8ee.png",
     "static/media/sharp.png": "/AboutMe-Branco/static/media/sharp.fab75a3990ed54802bec.png",
@@ -28,12 +28,12 @@
     "static/media/saa.jpg": "/AboutMe-Branco/static/media/saa.882bfd73f03325b6328f.jpg",
     "static/media/boots.png": "/AboutMe-Branco/static/media/boots.ad5c857afd0574404bbd.png",
     "index.html": "/AboutMe-Branco/index.html",
-    "main.7c9c588b.css.map": "/AboutMe-Branco/static/css/main.7c9c588b.css.map",
-    "main.24246511.js.map": "/AboutMe-Branco/static/js/main.24246511.js.map",
+    "main.d0ebee69.css.map": "/AboutMe-Branco/static/css/main.d0ebee69.css.map",
+    "main.38ce77d4.js.map": "/AboutMe-Branco/static/js/main.38ce77d4.js.map",
     "453.0fbe92db.chunk.js.map": "/AboutMe-Branco/static/js/453.0fbe92db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c9c588b.css",
-    "static/js/main.24246511.js"
+    "static/css/main.d0ebee69.css",
+    "static/js/main.38ce77d4.js"
   ]
 }
